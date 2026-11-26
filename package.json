@@ -1,0 +1,10 @@
+{
+  "name": "subtitle-toolkit",
+  "version": "0.1.0",
+  "description": "零依赖字幕工具箱:SRT/VTT/LRC 解析互转、平移/缩放/校验,CLI 可用",
+  "type": "module",
+  "bin": { "subtk": "./cli.js" },
+  "scripts": { "test": "node test/core.test.mjs && node test/cli.test.mjs && node test/syntax.test.mjs" },
+  "engines": { "node": ">=18" },
+  "license": "MIT"
+}
