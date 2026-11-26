@@ -1,5 +1,9 @@
 # subtitle-toolkit
 
+[![CI](https://github.com/JAKE1266/subtitle-toolkit/actions/workflows/ci.yml/badge.svg)](https://github.com/JAKE1266/subtitle-toolkit/actions/workflows/ci.yml)
+
+> 源码：<https://github.com/JAKE1266/subtitle-toolkit> · 安装：`npm i github:JAKE1266/subtitle-toolkit`（或直接克隆运行）
+
 零依赖字幕工具箱:**SRT / WebVTT / LRC** 解析、互转、平移、缩放、合并与校验。纯 Node.js(≥18),无任何第三方依赖,既是可编程的库,也是开箱即用的 CLI。
 
 > 为什么再造一个轮子:现有字幕工具要么是重型 GUI,要么依赖一大串包。这个项目用不到 600 行零依赖 JS 覆盖视频工作流里最高频的字幕操作——配合本地 AI 视频生成工具(如 [agnes-video-studio](../agnes-video-studio))使用尤其顺手。
